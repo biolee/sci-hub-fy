@@ -1,3 +1,6 @@
+update to support new sci-hub sci-hub.cn
+----------
+----------
 Sci-Hub-Fy
 ==========
 

@@ -2,9 +2,10 @@
 
 function sciHubFy(link, sciHubDomain) {
   // Append Sci-Hub domain to link's domain
-  let arr = link.split('/');
-  arr[2] = arr[2] + "." + sciHubDomain;
-  return arr.join('/');;
+  //let arr = link.split('/');
+  //arr[2] = arr[2] + "." + sciHubDomain;
+  //return arr.join('/');;
+  return "http://sci-hub.cn/get?url="+link;
 }
 
 function newTabSciHubFy(tab, link) {
